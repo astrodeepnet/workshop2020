@@ -350,6 +350,13 @@ ul li {
   margin-top: 0px;
   font-size: 25px;
   font-weight: 300;
+  letter-spacing: 4px;
+}
+.site-header .intro h22 {
+  margin-top: 0px;
+  font-size: 20px;
+  text-transform: none;
+  font-weight: 300;
 }
 @font-face {
   src: url(../fonts/League_Gothic.ttf);
