@@ -388,7 +388,8 @@ ul li {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
+    background-color: black;
+    /* transparent */
     padding-top: 30px;
   }
 
