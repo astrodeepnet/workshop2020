@@ -2,7 +2,7 @@
  * Change Navbar color while scrolling
 */
 
-const { Modal } = require("bootstrap");
+// const { Modal } = require("bootstrap");
 
 $(window).scroll(function(){
 	handleTopNavAnimation();
