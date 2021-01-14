@@ -69,12 +69,3 @@ $('#registration-form').submit(function(e){
 */
 
 smoothScroll.init();
-
-/*
- * Modal
-*/
-
-$('.launch-modal').on('click', function(e){
-    e.preventDefault();
-    $( '#' + $(this).data('modal-id') ).modal();
-});
