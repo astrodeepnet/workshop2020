@@ -464,7 +464,7 @@ ul li {
   /* justify-content: space-between; */
   box-sizing: content-box;
   position: relative;
-  background-color: #000;
+  background-color: rgb(43, 45, 66);
   color: #fff;
   text-align: center;
   padding: 40px 0px;
@@ -473,6 +473,29 @@ ul li {
   height: 200px;
 }
 .schedule-box::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  border: 1px solid #fff;
+}
+
+
+.schedule-box2 {
+  /* justify-content: space-between; */
+  box-sizing: content-box;
+  position: relative;
+  background-color: rgb(43, 45, 66);
+  color: #fff;
+  text-align: center;
+  padding: 40px 0px;
+  margin: 25px 0 0;
+  width: 350px;
+  height: 150px;
+}
+.schedule-box2::before {
   content: '';
   position: absolute;
   top: 5px;
@@ -573,6 +596,11 @@ ul li {
 /* 
  * 6.9 Section: photos
  */
+
+
+
+
+
 .grid {
   list-style-type: none;
   padding: 0;
